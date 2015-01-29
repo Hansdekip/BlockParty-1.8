@@ -1,0 +1,17 @@
+name : BlockParty
+version : 1.0.7
+author: Hansdekip
+description: 1.8 Update of the BlockParty plugin
+website: http://www.Cloud-Mine.de
+main: com.lekohd.blockparty.BlockParty
+
+depend:
+  - WorldEdit
+softdepend:
+  - BarAPI
+  - NoteBlockAPI
+  - VanishNoPacket
+
+commands:
+  blockparty:
+    aliases: [bp,block,blockp]
